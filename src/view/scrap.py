@@ -1,6 +1,5 @@
 import streamlit as st
 from lib.Twint import load_tweet
-from tokenizer import tokenize, TOK
 import re
 from bs4 import BeautifulSoup
 import pandas as pd

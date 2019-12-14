@@ -2,6 +2,12 @@
 
 This app can scrap tweet from tweeter, and labeling every tweet and do the sentiment analytics, then show the wordcloud for every sentiment
 
+## Scarping Page
+![scraping](page1.gif)
+
+## Sentiment Page
+![sentiment](page2.gif)
+
 ## Instaling Setup
 Following this step to run the app :
 
