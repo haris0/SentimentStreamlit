@@ -1,6 +1,6 @@
 # Sentiment App With Python
 
-This app can scrap tweet from tweeter, and labeling every tweet and do the sentiment analytics, then show the wordcloud for every sentiment
+This application can scraping tweets from Twitter, and label each tweet and do sentiment analytics, then display the wordcloud for each sentiment
 
 ## Scarping Page
 ![scraping](page1.gif)
