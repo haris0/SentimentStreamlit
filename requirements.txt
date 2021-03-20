@@ -30,7 +30,7 @@ geopy==1.20.0
 googletransx==2.4.2
 idna==2.8
 importlib-metadata==0.23
-Jinja2==2.10.3
+Jinja2==2.11.3
 jmespath==0.9.4
 jsonschema==3.1.1
 kiwisolver==1.1.0
