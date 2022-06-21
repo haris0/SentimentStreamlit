@@ -40,7 +40,7 @@ matplotlib==3.1.0
 more-itertools==7.2.0
 multidict==4.7.1
 nltk==3.4.5
-numpy==1.16.4
+numpy==1.22.0
 pandas==0.24.2
 pathtools==0.1.2
 Pillow==6.2.1
