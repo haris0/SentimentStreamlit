@@ -45,7 +45,7 @@ pandas==0.24.2
 pathtools==0.1.2
 Pillow==6.2.1
 protobuf==3.10.0
-pycares==3.1.0
+pycares==4.2.0
 pycparser==2.19
 pygeohash==1.2.0
 pymongo==3.9.0
