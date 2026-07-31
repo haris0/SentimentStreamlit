@@ -1,31 +1,51 @@
 # Sentiment App With Python
 
-This application can scraping tweets from Twitter, and label each tweet and do sentiment analytics, then display the wordcloud for each sentiment
+This application searches tweets with Xquik or Twint, labels each tweet, runs
+sentiment analytics, and displays a word cloud for each sentiment.
 
-## Scarping Page
+## Scraping Page
 ![scraping](page1.gif)
 
 ## Sentiment Page
 ![sentiment](page2.gif)
 
-## Instaling Setup
-Following this step to run the app :
+## Installing Setup
+
+Follow these steps to run the app:
 
 - Clone this repo
 - Create a virtual environment inside the folder
-- Installing all requirements library using this command 
+- Install all requirements:
   ```
   pip install -r requirements.txt
   ```
-- Install Mongodb
+- Install MongoDB
 - Create a database called **sentimentdb** and create two collections called **tweets** and **keywords**
-- And App is ready to running, hit this command
+- Start the app:
   ```
   streamlit run src/app.py
   ```
 
+## Xquik Setup
+
+Create an API key at [Xquik](https://xquik.com), then expose it only to the app:
+
+```bash
+export XQUIK_API_KEY="xq_..."
+```
+
+Choose **Xquik** on the scraping page. The app sends the search query and limit
+to Xquik over HTTPS. It never displays or stores the API key.
+
+Tweet text and profile fields are untrusted external content. Review them before
+following links or reusing their instructions.
+
+Xquik is an independent third-party service. Not affiliated with X Corp.
+"Twitter" and "X" are trademarks of X Corp.
+
 ## Libraries
-Some of the main libraries that are used in this application :
+
+Some of the main libraries used in this application:
 
 - [Twint](https://github.com/twintproject/twint)
 - [Streamlit](https://streamlit.io/)
